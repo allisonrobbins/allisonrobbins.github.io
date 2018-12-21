@@ -1,9 +1,10 @@
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: "Avenir Next" !important;
   font-weight: 300;
 }
 header{
   padding: 20px 0;
+  font-family: "Avenir Next" !important;
 }
 header .row,
 footer .row {
@@ -22,3 +23,7 @@ header p {
   padding: 0 20px;
   margin: 0;
 }
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("http://allisonrobbins.github.io/fonts/Avenir_Next.otf"); /* File to be stored at your site */
+  }
