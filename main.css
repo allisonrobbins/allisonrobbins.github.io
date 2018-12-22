@@ -5,7 +5,10 @@ body{
 header{
   padding: 20px 0;
   font-family: "Avenir Next" !important;
-
+  position: fixed;
+  background-color: #333333;
+  width: 100%;
+  z-index: 10;
 }
 header .row,
 footer .row {
@@ -17,8 +20,24 @@ header h1{
   margin: 0;
 }
 header nav {
-  display: flex;
-  justify-content: flex-end;
+  position: fixed;
+  background-color: #333333;
+  width: 100%;
+  z-index: 10;
+}
+header ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: right;
+}
+
+header li {
+  color: #FFFFFF;
+  font-family: "Avenir Next", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  width: 80px;
 }
 header p {
   padding: 0 20px;
