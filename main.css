@@ -5,6 +5,7 @@ body{
 header{
   padding: 20px 0;
   font-family: "Avenir Next" !important;
+
 }
 header .row,
 footer .row {
@@ -27,3 +28,8 @@ header p {
   font-family: 'Avenir Next';
   src: url("http://allisonrobbins.github.io/fonts/Avenir_Next.otf"); /* File to be stored at your site */
   }
+body container {
+  background-color: #333333;
+  padding: 20px 0;
+  font-family: "Avenir Next" !important;
+}
