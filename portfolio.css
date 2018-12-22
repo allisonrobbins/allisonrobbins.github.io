@@ -4,7 +4,8 @@
   height: 80%
   padding: 10px;
   margin-left: 20px;
-  grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+  grid-template: repeat(3,1fr)/repeat(3,1fr);
+  grid-gap: 5px;
 }
 body{
   font-family: "Avenir Next" !important;
