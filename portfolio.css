@@ -10,6 +10,8 @@ body{
   font-family: "Avenir Next" !important;
   font-weight: 300;
   background-color: #333333;
+  color: white;
+  margin-left: 10px;
 }
 header{
   font-family: "Avenir Next" !important;
@@ -18,4 +20,6 @@ header{
   width: 100%;
   z-index: 10;
   height: 100px;
+  color: white;
+  margin-left: 10px;
 }
