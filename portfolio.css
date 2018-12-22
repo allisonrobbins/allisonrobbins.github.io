@@ -3,5 +3,19 @@
   width: 80%;
   height: 80%
   padding: 10px;
-  grid-template: 1fr 1fr 1fr/2fr 1fr 2fr;
+  margin-left: 20px;
+  grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+}
+body{
+  font-family: "Avenir Next" !important;
+  font-weight: 300;
+  background-color: #333333;
+}
+header{
+  font-family: "Avenir Next" !important;
+  position: fixed;
+  background-color: #333333;
+  width: 100%;
+  z-index: 10;
+  height: 100px;
 }
