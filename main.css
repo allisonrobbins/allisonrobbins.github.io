@@ -25,14 +25,15 @@ header nav {
   width: 100%;
   z-index: 10;
 }
-header ul {
+ul {
   margin: 30px auto;
+  background-color: #333333;
   padding: 0 20px;
   text-align: right;
 }
-
-header li {
+li {
   color: #FFFFFF;
+  background-color: #333333;
   font-family: "Avenir Next", sans-serif;
   font-size: 16px;
   font-weight: 300;
