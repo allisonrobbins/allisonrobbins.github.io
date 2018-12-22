@@ -6,6 +6,8 @@
   margin-left: 20px;
   grid-template: repeat(3,200px)/repeat(3,200px);
   grid-gap: 5px;
+  border: 1px;
+  border-color: white;
 }
 body{
   font-family: "Avenir Next" !important;
