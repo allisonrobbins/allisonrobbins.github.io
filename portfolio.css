@@ -13,6 +13,7 @@ body{
   background-color: #333333;
   color: white;
   margin-left: 10px;
+  top:100px;
 }
 header{
   font-family: "Avenir Next" !important;
