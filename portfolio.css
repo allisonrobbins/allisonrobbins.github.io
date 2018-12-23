@@ -7,7 +7,7 @@
   grid-template: repeat(3,200px)/repeat(3,200px);
   grid-gap: 10px;
   top: 400px;
-  position: relative;
+  position: absolute;
 }
 body{
   font-family: "Avenir Next" !important;
@@ -16,7 +16,7 @@ body{
   color: white;
   margin-left: 10px;
   top:200px;
-  position: relative;
+  position: absolute;
 }
 header{
   font-family: "Avenir Next" !important;
