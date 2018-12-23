@@ -4,7 +4,7 @@
   height: 80%
   padding: 10px;
   margin-left: 20px;
-  grid-template: repeat(3,1fr)/repeat(3,1fr);
+  grid-template: repeat(3,100px)/repeat(3,100px);
   grid-gap: 20px;
 }
 body{
