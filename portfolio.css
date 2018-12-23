@@ -4,8 +4,8 @@
   height: 80%
   padding: 10px;
   margin-left: 20px;
-  grid-template: repeat(3,200px)/repeat(3,200px);
-  grid-gap: 5px;
+  grid-template: repeat(3,1fr)/repeat(3,1fr);
+  grid-gap: 20px;
   background-color: white;
 }
 body{
