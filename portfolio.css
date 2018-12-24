@@ -7,13 +7,13 @@
   grid-template: repeat(5,200px)/repeat(7,200px);
   grid-gap: 10px;
 }
-.grid2 {
+.second {
   display: grid;
   width: 80%;
   height: 80%
   padding: 10px;
   margin-left: 20px;
-  grid-template: repeat(5,200px)/repeat(5,300px);
+  grid-template: repeat(3,200px)/repeat(5,300px);
   grid-gap: 10px;
 }
 body{
