@@ -6,16 +6,14 @@
   margin-left: 20px;
   grid-template: repeat(3,200px)/repeat(3,200px);
   grid-gap: 10px;
-  top: 400px;
   position: absolute;
 }
 body{
   font-family: "Avenir Next" !important;
-  font-weight: 300;
+  font-weight: 200;
   background-color: #333333;
   color: white;
-  margin-left: 10px;
-  top:200px;
+  margin-left: 20px;
   position: absolute;
 }
 header{
@@ -26,7 +24,7 @@ header{
   z-index: 10;
   height: 100px;
   color: white;
-  margin-left: 10px;
+  padding-left: 10px;
   top:0px !important;
 }
 h1 {
@@ -65,5 +63,14 @@ h3 {
   grid-area: 3/2/span 1/span 1;
 }
 .i {
+  grid-area: 3/3/span 1/span 1;
+}
+.j {
+  grid-area: 4/1/span 1/span 1;
+}
+.k {
+  grid-area: 4/2/span 1/span 1;
+}
+.l {
   grid-area: 3/3/span 1/span 1;
 }
