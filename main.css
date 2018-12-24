@@ -1,12 +1,12 @@
 body{
   font-family: "Avenir Next" !important;
   font-weight: 300;
+  background-color: #333333;
 }
 header{
   font-family: "Avenir Next" !important;
   background-color: #333333;
   width: 100%;
-  z-index: 10;
 }
 header .row,
 footer .row {
