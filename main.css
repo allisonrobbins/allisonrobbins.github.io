@@ -48,6 +48,9 @@ header p {
   padding: 0 20px;
   margin: 0;
 }
+row {
+  display: inline-block;
+}
 @font-face {
   font-family: 'Avenir Next';
   src: url("http://allisonrobbins.github.io/fonts/Avenir_Next.otf"); /* File to be stored at your site */
@@ -77,6 +80,18 @@ p {
 }
 h2 {
   color: white;
+  font-family: "Avenir Next" !important;
+}
+h3 {
+  color: white;
+  font-weight: 50;
+  font-family: "Avenir Next" !important;
+  font-size: 18;
+}
+h4 {
+  color: white;
+  font-style: italic;
+  font-size: 16;
 }
 col-sm-8 {
   display: inline-block;
