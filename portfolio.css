@@ -17,9 +17,9 @@
   grid-gap: 10px;
 }
 nav {
-  color: white;
+  color: white !important;
   margin-right: 10px;
-  font-family: "Avenir_Next";
+  font-family: "Avenir_Next" !important;
   font-size: 14px;
   display: inline-block;
 }

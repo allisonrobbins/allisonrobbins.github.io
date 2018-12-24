@@ -33,7 +33,7 @@ ul {
   display: inline-block;
 }
 li {
-  color: #FFFFFF;
+  color: white !important;
   background-color: #333333;
   font-family: "Avenir Next", sans-serif;
   font-size: 16px;
@@ -63,6 +63,9 @@ p {
   text-align: left;
   padding-left: 10px;
   font-family: "Avenir Next" !important;
+}
+img {
+  padding-bottom: 20px;
 }
 h2 {
   color: white;
