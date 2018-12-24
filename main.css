@@ -22,7 +22,6 @@ header h1{
   z-index: 11;
 }
 header nav {
-  position: fixed;
   background-color: #333333;
   width: 100%;
   z-index: 10;
@@ -53,15 +52,12 @@ header p {
   }
  section {
   background-color: #333333;
-  top: 100px;
   padding: 20px 0;
   font-family: "Avenir Next" !important;
-  position: relative;
 }
 container {
   padding: 20px 10px;
   text-align: left;
-  position: relative;
   background-color: #333333;
 }
 p {
