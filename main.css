@@ -15,7 +15,7 @@ footer .row {
 }
 header h1{
   font-weight: 700;
-  margin: 10px;
+  padding-left: 10px;
   color: white;
   background-color: #333333;
 }
@@ -41,7 +41,6 @@ li {
 }
 header p {
   padding: 0 20px;
-  margin: 0;
 }
 @font-face {
   font-family: 'Avenir Next';
