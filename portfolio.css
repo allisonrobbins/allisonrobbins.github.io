@@ -22,6 +22,7 @@ nav {
   font-family: "Avenir_Next" !important;
   font-size: 14px;
   display: inline-block;
+  text-align: right;
 }
 body{
   font-family: "Avenir Next" !important;
@@ -43,7 +44,10 @@ header{
 h1 {
   font-weight: 300;
   font-size: 48px;
+  font-style: bold;
   display: inline-block;
+  text-align: left;
+
 }
 h3 {
   font-size: 30px;
