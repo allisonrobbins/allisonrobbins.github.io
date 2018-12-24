@@ -26,20 +26,41 @@ nav {
 }
 body{
   font-family: "Avenir Next" !important;
-  font-weight: 100;
   background-color: #333333;
-  color: white;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 header{
   font-family: "Avenir Next" !important;
   background-color: #333333;
   width: 100%;
-  z-index: 10;
-  height: 100px;
-  color: white;
-  padding-left: 10px;
+}
+header .row,
+footer .row {
+  display: flex;
+  align-items: right;
+}
+header nav {
+  background-color: #333333;
+  width: 100%;
+}
+ul {
+  margin: 30px auto;
+  background-color: #333333;
+  padding: 0 20px;
+  text-align: right;
   display: inline-block;
+}
+li {
+  color: white !important;
+  background-color: #333333;
+  font-family: "Avenir Next", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  width: 80px;
+}
+header p {
+  padding: 0 20px;
 }
 h1 {
   font-weight: 300;
