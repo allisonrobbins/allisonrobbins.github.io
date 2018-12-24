@@ -7,7 +7,6 @@ header{
   background-color: #333333;
   width: 100%;
   z-index: 10;
-  height: 100px;
 }
 header .row,
 footer .row {
@@ -19,12 +18,10 @@ header h1{
   margin: 10px;
   color: white;
   background-color: #333333;
-  z-index: 11;
 }
 header nav {
   background-color: #333333;
   width: 100%;
-  z-index: 10;
 }
 ul {
   margin: 30px auto;
@@ -54,6 +51,7 @@ header p {
   background-color: #333333;
   padding: 20px 0;
   font-family: "Avenir Next" !important;
+  width: 100%;
 }
 container {
   padding: 20px 10px;
@@ -85,7 +83,4 @@ h4 {
   color: white;
   font-style: italic;
   font-size: 16;
-}
-col-sm-8 {
-  display: inline-block;
 }
