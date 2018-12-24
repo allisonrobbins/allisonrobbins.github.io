@@ -126,3 +126,6 @@ h3 {
 .H {
   grid-area: 3/2/span 1/span 1;
 }
+.I {
+  grid-area: 3/3/span 1/span 1;
+}
