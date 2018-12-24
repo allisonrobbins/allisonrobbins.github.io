@@ -50,11 +50,12 @@ h1 {
   font-style: bold;
   display: inline-block;
   text-align: left;
-
+  color: white;
 }
 h3 {
   font-size: 30px;
   margin-left: 20px;
+  color: white;
 }
 .grid {
   display: grid;
