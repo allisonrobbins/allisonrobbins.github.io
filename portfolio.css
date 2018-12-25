@@ -92,6 +92,8 @@ h3 {
 .panel {
   padding: 0 20px;
   background-color: #333333;
+  display: none;
+  overflow:hidden;
 }
 .a {
   grid-area: 1/1/span 1/span 1;
