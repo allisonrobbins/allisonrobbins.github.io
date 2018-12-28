@@ -62,7 +62,7 @@ h3 {
   display: block;
   transition: .5s ease;
   backface-visibility: hidden;
-  width: 200px;
+  width: 300px;
   height: auto;
 }
 .middle {
@@ -81,34 +81,9 @@ h3 {
 .container:hover .middle {
   opacity: 1;
 }
-.menu:hover .image {
-  opacity: 0.3;
-}
-.menu:hover .middle {
-  opacity: 1;
-}
 .text {
   background-color: inherit;
   color: white;
   font-size: 16px;
   padding: 15px 20px;
-}
-.menu {
-  display: grid;
-  width: 80%;
-  height: 80%;
-  padding-left: 20px;
-  padding-top: 30px;
-  margin-left: 20px;
-  grid-template: repeat(3,200px)/1;
-  grid-gap: 10px;
-}
-.one {
-  grid-area: 1/1/span 1/span 1;
-}
-.two {
-  grid-area: 1/2/span 1/ span 1;
-}
-.three {
-  grid-area: 1/3/span 1/span 1;
 }
