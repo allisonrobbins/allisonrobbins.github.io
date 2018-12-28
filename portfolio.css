@@ -81,10 +81,10 @@ h3 {
 .container:hover .middle {
   opacity: 1;
 }
-.middle:hover .image {
+.menu:hover .image {
   opacity: 0.3;
 }
-.middle:hover .image {
+.menu:hover .middle {
   opacity: 1;
 }
 .text {
