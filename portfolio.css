@@ -81,6 +81,12 @@ h3 {
 .container:hover .middle {
   opacity: 1;
 }
+.middle:hover .image {
+  opacity: 0.3;
+}
+.middle:hover .image {
+  opacity: 1;
+}
 .text {
   background-color: inherit;
   color: white;
@@ -94,7 +100,7 @@ h3 {
   padding-left: 20px;
   padding-top: 30px;
   margin-left: 20px;
-  grid-template: repeat(3,200px)/repeat(3,250px);
+  grid-template: repeat(3,200px)/1;
   grid-gap: 10px;
 }
 .one {
