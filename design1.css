@@ -65,6 +65,7 @@ h3 {
   padding-top: 30px;
   grid-template: repeat(3,200px)/repeat(3,200px);
   grid-gap: 10px;
+  align-items: center;
 }
 .a {
   grid-area: 1/1/span 1/span 1;

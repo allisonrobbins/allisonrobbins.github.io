@@ -60,6 +60,7 @@ h3 {
 .container {
   position: relative;
   width: 50%;
+  padding-top: 20px;
 }
 .image {
   opacity: 1;
