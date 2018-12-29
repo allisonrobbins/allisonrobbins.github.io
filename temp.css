@@ -1,0 +1,88 @@
+body{
+  font-family: "Avenir Next" !important;
+  background-color: #333333;
+  padding-left: 20px;
+}
+header{
+  font-family: "Avenir Next" !important;
+  background-color: #333333;
+  width: 100%;
+}
+header .row,
+footer .row {
+  display: flex;
+  align-items: right;
+}
+header h1{
+  font-weight: 700;
+  padding-left: 10px;
+  font-size: 48px;
+  color: white;
+  background-color: #333333;
+}
+header nav {
+  background-color: #333333;
+  width: 100%;
+}
+.navbar {
+  background-color: pink;
+  overflow: hidden;
+}
+.navbar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: white;
+}
+.navbar a.active {
+  background-color: blue;
+  color: white;
+}
+header p {
+  padding: 0 20px;
+}
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("http://allisonrobbins.github.io/fonts/Avenir_Next.otf"); /* File to be stored at your site */
+  }
+ section {
+  background-color: #333333;
+  font-family: "Avenir Next" !important;
+}
+container {
+  text-align: left;
+  background-color: #333333;
+  padding-left: 10px;
+}
+p {
+  color: white;
+  background-color: #333333;
+  text-align: left;
+  padding-left: 10px;
+  font-family: "Avenir Next" !important;
+}
+img {
+  padding-bottom: 20px;
+}
+h2 {
+  color: white;
+  font-family: "Avenir Next" !important;
+  padding-left: 20px;
+}
+h3 {
+  color: white;
+  font-weight: 50;
+  font-family: "Avenir Next" !important;
+  font-size: 18;
+}
+h4 {
+  color: white;
+  font-style: italic;
+  font-size: 16;
+}
