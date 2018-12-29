@@ -24,21 +24,26 @@ header nav {
   background-color: #333333;
   width: 100%;
 }
-ul {
-  margin: 30px auto;
+.navbar {
   background-color: #333333;
-  padding: 0 20px;
-  text-align: right;
-  display: inline-block;
+  width: 100%;
+  overflow: hidden;
 }
-li {
-  color: white !important;
-  background-color: #333333;
-  font-family: "Avenir Next", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  display: inline-block;
-  width: 80px;
+.navbar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar a:hover {
+  background-color: #626162;
+  color: white;
+}
+.navbar a.active {
+  background-color: inherit;
+  color: white;
 }
 header p {
   padding: 0 20px;

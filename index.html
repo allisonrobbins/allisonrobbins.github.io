@@ -11,15 +11,15 @@
   <header class = "container">
     <div class = "row">
       <h1 class="col-sm-12">Allison Robbins</h1>
-      <ul class="col-sm-12 text-right">
-        <li>About Me</li>
-        <li>Resume</li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="https://github.com/allisonrobbins">Projects</a><li>
-      </ul>
+      <div class="navbar">
+        <a class="active" href="portfolio.html">Portfolio</a>
+        <a class="active" href="https://github.com/allisonrobbins">Projects</a>
+        <a class="active" href="#resume">Resume</a>
+        <a class="active" href="#about">About Me</a>
+      </div>
     </div>
   </header>
-  <section class = "about" >
+  <section class = "about" id='about'>
     <h2>About Me</h2>
       <div class="col-sm-8">
         <img src = "IMG_2100.jpg" height="200px" width="200px"/>
@@ -32,7 +32,7 @@
       </div>
     </div>
   </section>
-  <section class = "resume" >
+  <section class = "resume" id='resume'>
     <div class="row">
       <h2>Resume</h2>
     </div>
@@ -47,7 +47,6 @@ balancing individual needs and group dynamics. Created and
 implemented behavior plans for non-typical campers. Ensured
  campers were safe at all times.</p>
       </div>
-    </div>
     <div class="col-sm-8">
       <h3>Mentorship Chair</h3>
       <h4>Women in Computer Science</h4>
