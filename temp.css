@@ -25,8 +25,9 @@ header nav {
   width: 100%;
 }
 .navbar {
-  background-color: #561D6D;
+  background-color: #333333;
   width: 100%;
+  overflow: hidden;
 }
 .navbar a {
   float: right;
@@ -37,11 +38,11 @@ header nav {
   font-size: 18px;
 }
 .navbar a:hover {
-  background-color: #845896;
+  background-color: #626162;
   color: white;
 }
 .navbar a.active {
-  background-color: #845896;
+  background-color: inherit;
   color: white;
 }
 header p {
