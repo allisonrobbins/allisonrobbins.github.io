@@ -109,9 +109,17 @@ h3 {
 .button {
   border: none;
   outline: none;
-  padding: 10px 15px;
-  background-color: inherit;
+  margin-right: 20px;
+  padding: 10px 5px;
+  background-color: #5B7083;
   cursor: pointer;
   color: white;
   float: right;
+}
+.button:hover {
+  background-color: #ddd;
+}
+.button:active {
+  background-color: #666;
+  color: white;
 }
