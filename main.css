@@ -1,11 +1,11 @@
 body{
   font-family: "Avenir Next" !important;
-  background-color: #333333;
+  background-color: #5B7083;
   padding-left: 20px;
 }
 header{
   font-family: "Avenir Next" !important;
-  background-color: #333333;
+  background-color: #5B7083;
   width: 100%;
 }
 header .row,
@@ -18,15 +18,15 @@ header h1{
   padding-left: 10px;
   font-size: 48px;
   color: white;
-  background-color: #333333;
+  background-color: #5B7083;
   float: left;
 }
 header nav {
-  background-color: #333333;
+  background-color: #5B7083;
   width: 100%;
 }
 .navbar {
-  background-color: #333333;
+  background-color: #5B7083;
   width: 100%;
   overflow: hidden;
 }
@@ -54,17 +54,17 @@ header p {
   src: url("http://allisonrobbins.github.io/fonts/Avenir_Next.otf");
   }
  section {
-  background-color: #557089;
+  background-color: #5B7083;
   font-family: "Avenir Next" !important;
 }
 container {
   text-align: left;
-  background-color: #557089;
+  background-color: #5B7083;
   padding-left: 10px;
 }
 p {
   color: white;
-  background-color: #557089;
+  background-color: #5B7083;
   text-align: left;
   padding-left: 10px;
   font-family: "Avenir Next" !important;

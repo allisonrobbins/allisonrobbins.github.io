@@ -1,6 +1,6 @@
 header{
   font-family: "Avenir Next" !important;
-  background-color: #333333;
+  background-color: #5B7083;
   width: 100%;
 }
 header .row,
@@ -9,7 +9,7 @@ footer .row {
   align-items: right;
 }
 header nav {
-  background-color: #333333;
+  background-color: #5B7083;
   width: 100%;
 }
 nav {
@@ -22,19 +22,19 @@ nav {
 }
 body{
   font-family: "Avenir Next" !important;
-  background-color: #557089;
+  background-color: #5B7083;
   padding-left: 20px;
 }
 ul {
   margin: 30px auto;
-  background-color: #333333;
+  background-color: #5B7083;
   padding: 0 20px;
   text-align: right;
   display: inline-block;
 }
 li {
   color: white !important;
-  background-color: #333333;
+  background-color: #5B7083;
   font-family: "Avenir Next", sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -74,8 +74,8 @@ h3 {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 25%;
+  left: 25%;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   text-align: center;
