@@ -5,6 +5,11 @@
   background-color: black;
   padding: 20px 20px;
 }
+container {
+  background-color: black;
+  padding: 20px 20px;
+  text-align: left;
+}
 .btn {
   background-color: inherit;
   color: #F50D0D;
