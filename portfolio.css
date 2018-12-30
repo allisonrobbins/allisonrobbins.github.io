@@ -22,7 +22,7 @@ nav {
 }
 body{
   font-family: "Avenir Next" !important;
-  background-color: #333333;
+  background-color: #557089;
   padding-left: 20px;
 }
 ul {
@@ -67,7 +67,7 @@ h3 {
   display: block;
   transition: .5s ease;
   backface-visibility: hidden;
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 .middle {

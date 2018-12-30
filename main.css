@@ -54,17 +54,17 @@ header p {
   src: url("http://allisonrobbins.github.io/fonts/Avenir_Next.otf");
   }
  section {
-  background-color: #333333;
+  background-color: #557089;
   font-family: "Avenir Next" !important;
 }
 container {
   text-align: left;
-  background-color: #333333;
+  background-color: #557089;
   padding-left: 10px;
 }
 p {
   color: white;
-  background-color: #333333;
+  background-color: #557089;
   text-align: left;
   padding-left: 10px;
   font-family: "Avenir Next" !important;
