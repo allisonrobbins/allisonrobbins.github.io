@@ -14,11 +14,12 @@ footer .row {
   align-items: right;
 }
 header h1{
-  font-weight: 300;
+  font-weight: 400;
   padding-left: 10px;
   font-size: 48px;
   color: white;
   background-color: #333333;
+  float: left;
 }
 header nav {
   background-color: #333333;
@@ -50,7 +51,7 @@ header p {
 }
 @font-face {
   font-family: 'Avenir Next';
-  src: url("http://allisonrobbins.github.io/fonts/Avenir_Next.otf"); /* File to be stored at your site */
+  src: url("http://allisonrobbins.github.io/fonts/Avenir_Next.otf");
   }
  section {
   background-color: #333333;
@@ -67,7 +68,7 @@ p {
   text-align: left;
   padding-left: 10px;
   font-family: "Avenir Next" !important;
-  font-size: 18px;
+  font-size: 16px;
 }
 img {
   padding-bottom: 20px;
@@ -79,7 +80,7 @@ h2 {
 }
 h3 {
   color: white;
-  font-weight: 50;
+  font-weight: 100;
   font-family: "Avenir Next" !important;
   font-size: 18;
 }
