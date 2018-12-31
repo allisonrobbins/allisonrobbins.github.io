@@ -25,6 +25,25 @@
     <h3>Register Now!</h3>
   </div>
   <button class="btn" onclick="location.href='https://allisonrobbins.typeform.com/to/hwDkuF'">SIGN UP HERE</button>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.6 107.6" id="hack.svg">
+    <path id="star-path" fill="none" stroke="black" stroke-width="2" d="M0,0.2v696h183.8V423.6h255.9v272.6H624V0.2L439.7,0v252.6l-255.9-0.2l0-252.2H0z"/>
+  </svg>
+  <script>
+    var path = document.querySelector('#hack-path');
+    var pathLength = path.getTotalLength();
+    path.style.strokeDasharray = pathLength + ' ' + pathLength;
+    path.style.strokeDashoffset = pathLength;
+    window.addEventListener("scroll", function(e) {
+    var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+    var drawLength = pathLength * scrollPercentage;
+    path.style.strokeDashoffset = pathLength - drawLength;
+    });
+    if (scrollPercentage >= 0.99) {
+      path.style.strokeDasharray = "none";
+    } else {
+      path.style.strokeDasharray = pathLength + ' ' + pathLength;
+    }
+  </script>
 </div>
 </body>
 </html>
