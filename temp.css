@@ -1,12 +1,13 @@
 .navbar {
-  background-color: black;
+  background: black;
 }
 .body {
-  background-color: black;
+  background: black;
   padding: 20px 20px;
+  height: 2000px;
 }
 container {
-  background-color: black;
+  background: black;
   padding: 20px 20px;
   text-align: center;
 }
@@ -116,7 +117,6 @@ a.button {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
 .partner-logo {
   max-width: 70%;
   margin-bottom: 30px;
