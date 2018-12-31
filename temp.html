@@ -25,31 +25,31 @@
     <h3>Register Now!</h3>
   </div>
   <button class="btn" onclick="location.href='https://allisonrobbins.typeform.com/to/hwDkuF'">SIGN UP HERE</button>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.6 107.6" id="shape.svg">
+  <svg id="mySVG.svg">
     <path id="star-path" fill="none" stroke="red" stroke-width="2" d="M66.65,0.07l-0.01,91.47l92.81,0.07V0l66.84,0.07v252.4h-66.84v-98.85h-92.8v98.85H0V0.07H66.65z"/>
   </svg>
   <script>
-// Get the id of the <path> element and the length of <path>
-var shape = document.getElementById("shape");
-var length = shape.getTotalLength();
+  // Get the id of the <path> element and the length of <path>
+  var shape = document.getElementById("shape");
+  var length = shape.getTotalLength();
 
-// The start position of the drawing
-shape.style.strokeDasharray = length;
+  // The start position of the drawing
+  shape.style.strokeDasharray = length;
 
-// Hide the triangle by offsetting dash. Remove this line to show the triangle before scroll draw
-shape.style.strokeDashoffset = length;
+  // Hide the triangle by offsetting dash. Remove this line to show the triangle before scroll draw
+  shape.style.strokeDashoffset = length;
 
-// Find scroll percentage on scroll (using cross-browser properties), and offset dash same amount as percentage scrolled
-window.addEventListener("scroll", myFunction);
+  // Find scroll percentage on scroll (using cross-browser properties), and offset dash same amount as percentage scrolled
+  window.addEventListener("scroll", myFunction);
 
-function myFunction() {
-var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+  function myFunction() {
+    var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
 
-  var draw = length * scrollpercent;
+    var draw = length * scrollpercent;
 
-  // Reverse the drawing (when scrolling upwards)
-  shape.style.strokeDashoffset = length - draw;
-}
+    // Reverse the drawing (when scrolling upwards)
+    shape.style.strokeDashoffset = length - draw;
+  }
 </script>
 </div>
 </body>
