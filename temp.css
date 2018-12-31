@@ -3,6 +3,7 @@
 }
 .body {
   background: black;
+  margin-left: 30px;
   padding: 20px 20px;
   height: 2000px;
 }
@@ -26,8 +27,8 @@ container {
   position: fixed;
   top: 15%;
   width: 400px;
-  height: 210px;
-  margin-left:-50px;
+  height: 300px;
+  margin-left:-20px;
 }
 .navbar {
   background-color: inherit;
