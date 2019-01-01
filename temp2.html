@@ -10,7 +10,11 @@
       background: #242424;
       padding-left:30px;
     }
-
+    header .row,
+    footer .row {
+      display: flex;
+      align-items: right;
+    }
     #mySVG {
       position: fixed;
       top: 15%;
@@ -18,11 +22,49 @@
       height: 400px;
       margin-left:-20px;
     }
+    h1 {
+      color: white;
+    }
     h2 {
       color: #ffffff;
     }
     p {
       color: #ffffff;
+    }
+    a.button {
+        background-color: red;
+        border: none;
+        color: white;
+        padding-left: 20px;
+        padding-right:20px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .navbar {
+      background-color: inherit;
+      width: 100%;
+      overflow: hidden;
+    }
+    .navbar a {
+      float: right;
+      color: #F50D0D;
+      text-align: center;
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .navbar a:hover {
+      background-color: #626162;
+      color: inherit;
+    }
+    .navbar a.active {
+      background-color: inherit;
+      color: inherit;
     }
   </style>
 </head>
