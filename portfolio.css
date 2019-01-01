@@ -64,10 +64,10 @@ h3 {
 }
 .image {
   opacity: 1;
-  display: block;
+  display: inline-block;
   transition: .5s ease;
   backface-visibility: hidden;
-  width: 100%;
+  width: 300px;
   height: auto;
 }
 .middle {
