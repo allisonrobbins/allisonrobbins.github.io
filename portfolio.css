@@ -67,7 +67,7 @@ h3 {
   display: inline-block;
   transition: .5s ease;
   backface-visibility: hidden;
-  width: 300px;
+  width: 100%;
   height: auto;
 }
 .middle {
