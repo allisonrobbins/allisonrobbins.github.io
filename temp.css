@@ -34,6 +34,7 @@ container {
   background-color: inherit;
   width: 100%;
   overflow: hidden;
+  position: fixed;
 }
 .navbar a {
   float: right;

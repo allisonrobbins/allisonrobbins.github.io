@@ -48,17 +48,18 @@
     .navbar {
       width: 100%;
       overflow: hidden;
+      position: fixed;
     }
     .navbar a {
       float: right;
-      color: #ffffff;
+      color: #626162;
       text-align: center;
       padding: 10px 15px;
       text-decoration: none;
       font-size: 18px;
     }
     .navbar a:hover {
-      background-color: #626162;
+      background-color: #gggfff;
       color: white;
     }
     .navbar a.active {
@@ -72,8 +73,9 @@
     <div class="row">
       <h1 class="col-sm-12">Hackital</h1>
       <div class="navbar">
-        <a class="active" href="#sponsors">Sponsors</a>
         <a class="active" href="#faq">FAQ</a>
+        <a class="active" href="#sponsors">Sponsors</a>
+        <a class="active" href="#schedule">Schedule</a>
       </div>
     </div>
   </header>
@@ -82,7 +84,19 @@
   <path fill="none" stroke="red" stroke-width="3" id="triangle" d="M66.65,0.07l-0.01,91.47l92.81,0.07V0l66.84,0.07v252.4h-66.84v-98.85h-92.8v98.85H0V0.07H66.65z"/>
   Sorry, your browser does not support inline SVG.
 </svg>
-
+<div class="container">
+  <div class="row" id="schedule">
+    <h2>Schedule</h2>
+    <p>Coming soon! With a focus on workshops and fun!</p>
+  </div>
+  <div class="row" id="sponsors">
+    <h2>Sponsors</h2>
+  </div>
+  <p>Some people gave us money hey thanks</p>
+  <div class="row" id="faq">
+    <h2>FAQ</h2>
+  </div>
+</div>
 <script>
 // Get the id of the <path> element and the length of <path>
 var triangle = document.getElementById("triangle");
