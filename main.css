@@ -50,7 +50,10 @@ header p {
   padding: 0 20px;
 }
 #main {
-  height: 1000px;
+  height: 500px;
+}
+#about {
+  float: left;
 }
 @font-face {
   font-family: 'Avenir Next';
