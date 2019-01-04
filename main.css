@@ -55,6 +55,9 @@ header p {
 #about {
   float: left;
 }
+#resume {
+  float: left;
+}
 @font-face {
   font-family: 'Avenir Next';
   src: url("http://allisonrobbins.github.io/fonts/Avenir_Next.otf");
