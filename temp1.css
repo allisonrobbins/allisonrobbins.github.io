@@ -6,7 +6,7 @@ body{
   margin: 0;
 }
 .bdg{
-  background-image: url("professional.jpg");
+  background-image: image("professional.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
