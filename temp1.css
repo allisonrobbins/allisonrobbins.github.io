@@ -1,12 +1,12 @@
 body{
   font-family: "Avenir Next" !important;
-  background-color: #333333;
+  background-color: white;
   padding-left: 20px;
   height: 100%;
   margin: 0;
 }
-.bdg{
-  background-image: image("professional.jpg");
+.bgd{
+  background-image: url(professional.jpg);
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body{
 }
 header{
   font-family: "Avenir Next" !important;
-  background-color: #333333;
+  background-color: white;
   width: 100%;
 }
 header .row,
@@ -26,21 +26,20 @@ header h1{
   font-weight: 300;
   padding-left: 10px;
   font-size: 48px;
-  color: white;
-  background-color: #333333;
+  color: black;
 }
 header nav {
-  background-color: #333333;
+  background-color: white;
   width: 100%;
 }
 .navbar {
-  background-color: #333333;
+  background-color: white;
   width: 100%;
   overflow: hidden;
 }
 .navbar a {
   float: right;
-  color: white;
+  color: black;
   text-align: center;
   padding: 10px 15px;
   text-decoration: none;
@@ -48,11 +47,11 @@ header nav {
 }
 .navbar a:hover {
   background-color: #626162;
-  color: white;
+  color: black;
 }
 .navbar a.active {
   background-color: inherit;
-  color: white;
+  color: black;
 }
 header p {
   padding: 0 20px;
