@@ -13,7 +13,8 @@ body, html{
   background-size: cover;
 }
 .about{
-  background-color: #495c77;
+  background-color: #495c77 !important;
+  height: 1000px;
 }
 header{
   font-family: "Avenir Next" !important;
