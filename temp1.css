@@ -11,6 +11,7 @@ body, html{
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -50px;
+  z-index: 1;
 }
 .about{
   background-color: #495c77 !important;
@@ -26,7 +27,9 @@ body, html{
 header{
   font-family: "Avenir Next" !important;
   background-color: white;
+  height: auto;
   width: 100%;
+  z-index: 10;
 }
 header .row,
 footer .row {
