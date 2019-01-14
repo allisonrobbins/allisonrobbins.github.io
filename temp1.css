@@ -27,7 +27,7 @@ body, html{
 }
 .classes {
   background-color: #97999c !important;
-  height: 300px;
+  height: 3000px;
   padding-top: 50px;
   padding-left: 50px;
   color: black !important;
@@ -35,6 +35,7 @@ body, html{
 .sec3 {
   background-color: #253a54 !important;
   color: white;
+  height: 1000px;
 }
 header{
   font-family: "Avenir Next" !important;
@@ -57,7 +58,7 @@ header h1{
 h1{
   font-weight: 700;
   font-size: 48px;
-  color: white;
+  color: inherit;
 }
 header nav {
   background-color: white;
