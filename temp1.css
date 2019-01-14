@@ -16,6 +16,10 @@ body, html{
   height: 1000px;
   padding: 20px;
 }
+.right {
+  width: 50%;
+  float: right;
+}
 header{
   font-family: "Avenir Next" !important;
   background-color: white;
@@ -80,7 +84,6 @@ container {
 }
 p {
   color: white;
-  background-color: #333333;
   text-align: left;
   padding-left: 10px;
   font-family: "Avenir Next" !important;
