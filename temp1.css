@@ -1,13 +1,12 @@
 body, html{
   font-family: "Avenir Next" !important;
   background-color: white;
-  padding-left: 20px;
   height: 100%;
   margin: 0;
 }
 .bgd{
   background-image: url(professional.jpg);
-  height: 50%;
+  height: 60%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,6 +14,7 @@ body, html{
 .about{
   background-color: #495c77 !important;
   height: 1000px;
+  padding: 20px;
 }
 header{
   font-family: "Avenir Next" !important;
