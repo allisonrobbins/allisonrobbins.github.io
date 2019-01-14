@@ -10,15 +10,18 @@ body, html{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -50px;
 }
 .about{
   background-color: #495c77 !important;
   height: 1000px;
-  padding: 20px;
+  padding-top: 50px;
+  padding-left: 50px;
 }
 .right {
-  width: 50%;
+  width: 40%;
   float: right;
+  padding-right: 15px;
 }
 header{
   font-family: "Avenir Next" !important;
