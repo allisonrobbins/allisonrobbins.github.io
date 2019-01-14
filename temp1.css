@@ -32,6 +32,10 @@ body, html{
   padding-left: 50px;
   color: black !important;
 }
+.sec3 {
+  background-color: #253a54 !important;
+  color: white;
+}
 header{
   font-family: "Avenir Next" !important;
   background-color: white;
