@@ -6,7 +6,7 @@ body, html{
 }
 .bgd{
   background-image: url(professional.jpg);
-  height: 60%;
+  height: 80%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,9 +28,9 @@ footer .row {
 }
 header h1{
   font-weight: 700;
-  padding-left: 10px;
   font-size: 48px;
   color: black;
+  float: left;
 }
 h1{
   font-weight: 700;
