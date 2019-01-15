@@ -27,7 +27,7 @@ body, html{
 }
 .courses {
   background-color: #97999c !important;
-  height: 2000px;
+  height: 1500px;
   padding-top: 50px;
   padding-left: 50px;
   color: black !important;
@@ -126,7 +126,7 @@ h2 {
 }
 h3 {
   color: inherit;
-  font-weight: 50;
+  font-weight: 400;
   font-family: "Avenir Next" !important;
   font-size: 18;
 }
