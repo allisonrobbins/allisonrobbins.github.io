@@ -42,10 +42,10 @@ body, html{
 header{
   font-family: "Avenir Next" !important;
   background-color: white;
-  height: 50px;
+  height: 60px;
   width: 100%;
   z-index: 10;
-  position: fixed;
+  position: sticky;
 }
 header .row,
 footer .row {
