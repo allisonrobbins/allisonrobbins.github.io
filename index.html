@@ -2,10 +2,10 @@
 <html>
 <head>
   <title>Allison Robbins</title>
-  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="temp1.css">
 </head>
 <body>
   <header class = "container">
@@ -13,81 +13,57 @@
       <h1 class="col-sm-12">Allison Robbins</h1>
       <div class="navbar">
         <a class="active" href="portfolio.html">Portfolio</a>
+        <a class="active" href="#courses">Courses</a>
         <a class="active" href="#projects">Projects</a>
-        <a class="active" href="#resume">Resume</a>
         <a class="active" href="#about">About Me</a>
       </div>
     </div>
   </header>
-  <section class = "about" id='about'>
-    <h2>About Me</h2>
-      <div class="col-sm-8">
-        <img src = "IMG_2100.jpg" height="200px" width="200px"/>
-      </div>
-      <div class="col-sm-8">
-        <p>Student at George Washington University double
-           majoring in Computer Science and Graphic Design.
-           From Newton, Massachusetts.</p>
-      </div>
-      <div class="row"></div>
-      <div class="row"></div>
-  </section>
-  <section class = "resume" id='resume'>
-    <div class="row">
-      <h2>Resume</h2>
-    </div>
-      <div class="col-sm-4">
-        <h3>Camp Counselor and Unit Leader</h3>
-        <h4>Camp Echo Bridge</h4>
-        <p>Camp counselor at an inclusive summer camp
+  <div class="bgd"></div>
+  <div class="about">
+    <h1>About Me</h1>
+    <h2>+ Things I Do</h2>
+    <div class="right">
+      <h3>Camp Counselor and Unit Leader</h3>
+      <h4>Camp Echo Bridge</h4>
+      <p>Camp counselor at an inclusive summer camp
 for children with special needs. Unit leader and supervisor
 for 4 other counselors the past summer. Planned activities
 to keep children engaged, safe, happy, and entertained while
 balancing individual needs and group dynamics. Created and
 implemented behavior plans for non-typical campers. Ensured
- campers were safe at all times.</p>
-      </div>
-    <div class="col-sm-4">
+campers were safe at all times.</p>
       <h3>Mentorship Chair</h3>
       <h4>Women in Computer Science</h4>
       <p>Responsibilities include planning meetings and events
- in addition to pairing up freshman mentees with senior and graduate
- students. Goal is to create a welcoming and supportive environment
- in the Computer Science Department for women.</p>
-    </div>
-    <div class="col-sm-4">
+in addition to pairing up freshman mentees with senior and graduate
+students. Goal is to create a welcoming and supportive environment
+in the Computer Science Department for women.</p>
       <h3>Chief External Affairs Officer</h3>
       <h4>Kappa Alpha Theta Sorority</h4>
       <p>On Executive board of a social sorority. In charge of Alumni
- Relations, Marketing, Online Media, and Service and Philanthropy. Oversee
+Relations, Marketing, Online Media, and Service and Philanthropy. Oversee
 the Online Media Director and Service and Philanthropy Director. Lead Marketing
-Committee, and a member of the Inclusion and Diversity committee. Elected to and served on Nominating
-Committee, a group of 6 members that choose all officers on behalf of the sorority.</p>
-    </div>
-    <div class="row"></div>
-    <div class="col-sm-4">
+Committee, and a member of the Inclusion and Diversity committee. Elected to and
+ served on Nominating Committee, a group of 6 members that choose all officers
+ on behalf of the sorority.</p>
       <h3>Graphic Designer</h3>
       <h4>Hackital</h4>
       <p>In charge of editing and maintaining website and social media.
-        Responsibilities include creat- ing content, advertising, and marketing
-         as well as helping plan and execute a major hackathon through getting
-          sponsorships and scheduling workshops.</p>
+   Responsibilities include creat- ing content, advertising, and marketing
+    as well as helping plan and execute a major hackathon through getting
+     sponsorships and scheduling workshops.</p>
+     <h3>Disabled Student Collective</h3>
+     <h4>Member</h4>
+     <p>An organization focused on improving accessibility around campus,
+       working with the administration, faculty, and student organizations
+      to help make campus, classes, and events accessible to everyone.</p>
     </div>
-    <div class="col-sm-4">
-      <h3>Disabled Student Collective</h3>
-      <h4>Member</h4>
-      <p>An organization focused on improving accessibility around campus,
-        working with the administration, faculty, and student organizations
-       to help make campus, classes, and events accessible to everyone.</p>
-    </div>
-    <div class="row"></div>
-    <div class="row"></div>
-  </section>
-  <section class="projects" id='projects'>
-    <div class="row">
-      <h2>Projects</h2>
-    </div>
-    <div class="col-sm-4">
+  </div>
+  <div class="courses">
+    <h1>Projects</h1>
+    <h2>+ Other Things I've Learned</h2>
+    <div class="right">
       <h3>Zombie Simulator</h3>
       <p>For my software engineering class (Fall 2018), one of our projects was
          to build a zombie simulation. This project's aim was to reinforce object-
@@ -98,59 +74,59 @@ Committee, a group of 6 members that choose all officers on behalf of the sorori
           hitting space bar resets the simulation and clicking on the screen adds
           a zombie in that spot. The finished code is on my GitHub repository,
           right <a class="active" href="https://github.com/allisonrobbins/zombie">here</a>.</p>
+          <h3>Chat Server</h3>
+          <p>The last project in my software engineering class (Fall 2018) was to
+            create a multi-user chat server. This project's aim was to teach us how
+             networking and threading work. I created a server and a client, running
+              as many clients as I wanted at a time, using some starter code from the
+            profesor. The goal was for each client to connect with a name of their
+            choice. If they wanted to change their name, they typed "./" then the desired
+            name, which updates that user's name in their own window and all other client's
+            windows. The server read in each message from any of the clients and then sent
+            it back to all the clients along with the name of that client. Each client
+            printed a running log of all the messages sent. The code is
+            <a class="active" href="https://github.com/allisonrobbins/chat-server">here</a>.</p>
+            <h3>Processor Design</h3>
+            <p>In my Computer Architecture class (Fall 2018), I worked with a group to
+            design a processor for a simplified version of LC-3. We built every component,
+          including the memory, control, and processing units. I was responsible for the
+        processing unit, so I made the ALU and register bank from scratch and connected
+        them to the rest of the machine. We used Cedar Logic to design, build, and test.</p>
+        <h3>Encryption/Decryption</h3>
+        <p>Our next project in Computer Architecture was to write encryption software
+        in LC-3. The program ran by prompting the user to select whether they wanted
+        to encrypt, decrypt, or exit. If they chose to encrypt, they entered a message,
+        then entered a key. The program used two encryption algorithms to convert each
+        character of the message, then stored those in memory. Then, if the user chose
+        to decrypt, the user would again enter the same key. The program reversed the
+        encryption to print out the original message. If the user chose to exit the
+        program, the program wrote over the section of memory that stored the encrypted
+        message, just to be safe.</p>
+        <h3>Search Engine</h3>
+        <p>In Computer Architecture, the next project was to build a search engine in C.
+          The program read in data from three text files and placed the data in a hashmap.
+          Next, the program removed all stop words from the map. The user entered a string
+          of words to search for, and the program calculated and used the inverse document
+          frequency to rank the documents by relevance and printed that ordering to the
+          screen. Code is <a class="active" href="https://github.com/allisonrobbins/project-5-arch">here</a>.</p>
+          <h3>Code Performance Optimization</h3>
+          <p>Given image altering code in C, this project was to optimize the code's performance.
+        Because this project was in my Computer Architecture class, the goal was not to create
+        nice, readable, object oriented code. Rather, it was to reduce the time needed to rotate
+        and smooth an image. By using inlining and blocking, I reduced the time by 60%. Code is uploaded
+        <a class="active" href="https://github.com/allisonrobbins/archProj6">here</a>.</p>
     </div>
-    <div class="col-sm-4">
-      <h3>Chat Server</h3>
-      <p>The last project in my software engineering class (Fall 2018) was to
-        create a multi-user chat server. This project's aim was to teach us how
-         networking and threading work. I created a server and a client, running
-          as many clients as I wanted at a time, using some starter code from the
-        profesor. The goal was for each client to connect with a name of their
-        choice. If they wanted to change their name, they typed "./" then the desired
-        name, which updates that user's name in their own window and all other client's
-        windows. The server read in each message from any of the clients and then sent
-        it back to all the clients along with the name of that client. Each client
-        printed a running log of all the messages sent. The code is
-        <a class="active" href="https://github.com/allisonrobbins/chat-server">here</a>.</p>
-    </div>
-  <div class="col-sm-4">
-    <h3>Processor Design</h3>
-    <p>In my Computer Architecture class (Fall 2018), I worked with a group to
-    design a processor for a simplified version of LC-3. We built every component,
-  including the memory, control, and processing units. I was responsible for the
-processing unit, so I made the ALU and register bank from scratch and connected
-them to the rest of the machine. We used Cedar Logic to design, build, and test.</p>
   </div>
-  <div class="row"></div>
-  <div class="col-sm-4">
-    <h3>Encryption/Decryption</h3>
-    <p>Our next project in Computer Architecture was to write encryption software
-    in LC-3. The program ran by prompting the user to select whether they wanted
-    to encrypt, decrypt, or exit. If they chose to encrypt, they entered a message,
-    then entered a key. The program used two encryption algorithms to convert each
-    character of the message, then stored those in memory. Then, if the user chose
-    to decrypt, the user would again enter the same key. The program reversed the
-    encryption to print out the original message. If the user chose to exit the
-    program, the program wrote over the section of memory that stored the encrypted
-    message, just to be safe.</p>
+  <div class="sec3">
+    <h1>Courses</h1>
+    <h2>That I've Taken</h2>
+    <div class="right">
+      <h3>Computer Architecture</h3>
+      <h3>Software Engineering</h3>
+      <h3>Discrete Structures</h3>
+      <h3>Design Fundamentals I and II</h3>
+      <h3>Typography I</h3>
+      <h3>Motion Graphics I</h3>
   </div>
-<div class="col-sm-4">
-  <h3>Search Engine</h3>
-  <p>In Computer Architecture, the next project was to build a search engine in C.
-    The program read in data from three text files and placed the data in a hashmap.
-    Next, the program removed all stop words from the map. The user entered a string
-    of words to search for, and the program calculated and used the inverse document
-    frequency to rank the documents by relevance and printed that ordering to the
-    screen. Code is <a class="active" href="https://github.com/allisonrobbins/project-5-arch">here</a>.</p>
-</div>
-<div class="col-sm-4">
-  <h3>Code Performance Optimization</h3>
-  <p>Given image altering code in C, this project was to optimize the code's performance.
-Because this project was in my Computer Architecture class, the goal was not to create
-nice, readable, object oriented code. Rather, it was to reduce the time needed to rotate
-and smooth an image. By using inlining and blocking, I reduced the time by 60%. Code is uploaded
-<a class="active" href="https://github.com/allisonrobbins/archProj6">here</a>.</p>
-</div>
-</section>
 </body>
 </html>

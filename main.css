@@ -1,37 +1,84 @@
-body{
+body, html{
   font-family: "Avenir Next" !important;
-  background-color: #333333;
-  padding-left: 20px;
+  background-color: white;
+  height: 100%;
+  margin: 0;
+}
+.bgd{
+  background-image: url(professional.jpg);
+  height: 60%;
+  margin-top: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.about{
+  background-color: #495c77 !important;
+  height: 1500px;
+  padding-top: 50px;
+  padding-left: 50px;
+  color: white;
+}
+.right {
+  width: 50%;
+  float: right;
+  padding-right: 30px;
+}
+.courses {
+  background-color: #97999c !important;
+  height: 2000px;
+  padding-top: 50px;
+  padding-left: 50px;
+  color: black !important;
+}
+.sec3 {
+  background-color: #253a54 !important;
+  color: white;
+  height: 1000px;
+  padding-top: 50px;
+  padding-left: 50px;
 }
 header{
   font-family: "Avenir Next" !important;
-  background-color: #333333;
+  background-color: white;
+  height: 60px;
   width: 100%;
+  z-index: 10;
+  position: sticky;
 }
 header .row,
 footer .row {
+  height: 50px;
+  width: 100%;
   display: flex;
   align-items: right;
 }
 header h1{
-  font-weight: 300;
-  padding-left: 10px;
+  font-weight: 700;
   font-size: 48px;
-  color: white;
-  background-color: #333333;
+  color: black;
+  float: left;
+}
+h1{
+  font-weight: 700;
+  font-size: 48px;
+  color: inherit;
 }
 header nav {
-  background-color: #333333;
+  background-color: white;
   width: 100%;
+  height: 50px;
 }
 .navbar {
-  background-color: #333333;
+  background-color: white;
   width: 100%;
   overflow: hidden;
+  height: 50px;
 }
 .navbar a {
   float: right;
-  color: white;
+  color: black;
   text-align: center;
   padding: 10px 15px;
   text-decoration: none;
@@ -39,11 +86,11 @@ header nav {
 }
 .navbar a:hover {
   background-color: #626162;
-  color: white;
+  color: black;
 }
 .navbar a.active {
   background-color: inherit;
-  color: white;
+  color: black;
 }
 header p {
   padding: 0 20px;
@@ -62,8 +109,6 @@ container {
   padding-left: 10px;
 }
 p {
-  color: white;
-  background-color: #333333;
   text-align: left;
   padding-left: 10px;
   font-family: "Avenir Next" !important;
@@ -73,18 +118,20 @@ img {
   padding-bottom: 20px;
 }
 h2 {
-  color: white;
+  color: inherit;
   font-family: "Avenir Next" !important;
   padding-left: 20px;
+  font-size: 36px;
+  font-weight: 100;
 }
 h3 {
-  color: white;
+  color: inherit;
   font-weight: 50;
   font-family: "Avenir Next" !important;
   font-size: 18;
 }
 h4 {
-  color: white;
+  color: inherit;
   font-style: italic;
   font-size: 16;
 }
