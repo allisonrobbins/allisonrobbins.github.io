@@ -25,6 +25,11 @@ body, html{
   float: right;
   padding-right: 30px;
 }
+.left{
+	width: 50%;
+  float: left;
+  padding-left: 30px;
+}
 .courses {
   background-color: #97999c !important;
   height: 1500px;
@@ -35,9 +40,17 @@ body, html{
 .sec3 {
   background-color: #253a54 !important;
   color: white;
-  height: 1000px;
+  height: 100%;
   padding-top: 50px;
   padding-left: 50px;
+}
+.sec3 accordion1 {
+  background-color: #253a54 !important;
+  color: white;
+}
+.panel-heading {
+  background-color: #253a54 !important;
+  color: white;
 }
 header{
   font-family: "Avenir Next" !important;
@@ -134,4 +147,7 @@ h4 {
   color: inherit;
   font-style: italic;
   font-size: 16;
+}
+div .left {
+	width: 50%;
 }
