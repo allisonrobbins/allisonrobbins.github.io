@@ -5,20 +5,20 @@ body, html{
   margin: 0;
 }
 .bgd{
-  background-image: url(professional.jpg);
-  height: 60%;
-  margin-top: 50px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
+	background-image: url(IMG_8215%203%20copy.jpg);
+	height: 100%;
+	margin-top: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1;
 }
 .about{
-  background-color: #495c77 !important;
-  height: 1500px;
-  padding-top: 50px;
-  padding-left: 50px;
-  color: white;
+	background-color: #495c77 !important;
+	height: 200%;
+	padding-top: 50px;
+	padding-left: 50px;
+	color: white;
 }
 .right {
   width: 50%;
@@ -33,11 +33,11 @@ body, html{
   color: black !important;
 }
 .sec3 {
-  background-color: #253a54 !important;
-  color: white;
-  height: 1000px;
-  padding-top: 50px;
-  padding-left: 50px;
+	background-color: #253a54 !important;
+	color: white;
+	height: 700px;
+	padding-top: 50px;
+	padding-left: 50px;
 }
 header{
   font-family: "Avenir Next" !important;
@@ -141,4 +141,6 @@ h4 {
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   border-top: 50px solid #495c77;
+}
+.left {
 }
