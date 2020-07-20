@@ -8,30 +8,81 @@
 <title>Allison Robbins | Front End Design</title>
 </head>
 	<style>
+		
+		:root {
+			$light-green: #647973;
+			$dark-green: #314247;
+		}	
+		
 	.navbar {
 		margin-bottom: 0;
 		border-radius: 0;
-    }
-/*	  This is what gives you a big image in the background at the top of the page*/
-	.jumbotron {
-		background-image: image("version2.png");
-		background-size: cover;
-		height: 80vh;
+		background-color: #314247; 
+		color: #FFFFFF;
+		}
+		.navbar-brand{
+			color: #fff;
+		}
+	#header {
+		width: 100%;
+		padding-top: 5vh;
+		padding-bottom: 5vh;
 	}
-		.jumbotron{
-  margin:15px 30px 0px 30px;
-  border-radius:0px;
-    background: 
-linear-gradient(
-  rgba(0, 0, 250, 0.25), 
-  rgba(125, 250, 250, 0.45)
-),
-url(https://source.unsplash.com/1600x1050/?nature);
-background-repeat: no-repeat;
-background-attachment: fixed;
-color:white !important;
-height:340px;
-}
+	#header-img {
+		background: url(../../../Desktop/Website%20image/IMG_8215.jpg);
+		background-size: cover;
+		height: 70vh;
+/*
+		width: 100%;
+		width: 70vw;
+*/		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: right;
+		z-index: 0;
+		float: right;
+/*		position: absolute;*/
+	}
+	body{
+		font-family: "Avenir Next" !important;
+	}
+	#title {
+		text-align: left;
+		margin-top: 10vh;
+		padding-top: 10vh;
+		padding-left: 10vh;
+		padding-bottom: 10vh;
+		height: auto;
+		color: #ffffff;
+		background-color: #314247;
+		background-size: contain;
+		z-index: 10;
+		position: absolute;
+	}
+		
+		.text-block-right {
+			float: right;
+			background-color: #647973;
+			color: white;
+			margin-top: 10vh;
+			padding-top: 10vh;
+			padding-left: 15vw;
+			padding-right: 15vw;
+			padding-bottom: 10vh;
+		}
+		.text-block-left{
+			float: left;
+			background-color: #838e91;
+			color: black;
+			margin-top: 10vh;
+			padding-top: 10vh;
+			padding-left: 15vw;
+			padding-right: 15vw;
+			padding-bottom: 10vh;
+		}
+		p {
+			font-size: 18px;
+		}
+		
 	</style>
 <body>
   <nav class="navbar navbar-inverse">
@@ -55,58 +106,44 @@ height:340px;
     </div>
   </div>
 </nav>
-<div class="jumbotron jumbotron-fluid" id="home">	
-	<div class="container">
-    	<h1 class="display-2">Fluid jumbotron.</h1>
-    	<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-	</div>
-	</div>
-	<div class="about">
-    <h1>About Me</h1>
-    <h2>+ Things I Do</h2>
-	<div class="col-md-4">
-	   <div class="left">
-      	  <h3>George Washington University</h3>
-      	  <h4>2017-2021</h4>
-		  <p>Currently pursuing a double major in Computer Science and Fine Art with a minor in Graphic Design</p>
-		</div> 
-	</div>
-	<div class="col-md-6" style="float: right;">
-		<div class="right">
+<div class="container" id="header">	
+	<div class="row">
+		<div class="col-lg-6 col-md-4 col-sm-2" id="title">
+			<h1>Allison Robbins</h1>
+			<h4>FRONT END DESIGN</h4>
 		</div>
-		<h3>Chief External Affairs Officer</h3>
-      <h4>Kappa Alpha Theta Sorority</h4>
-      <p class="left">On Executive board of a social sorority. In charge of Alumni
-Relations, Marketing, Online Media, and Service and Philanthropy. Oversee
-the Online Media Director and Service and Philanthropy Director. Lead Marketing
-Committee, and a member of the Inclusion and Diversity committee. Elected to and
- served on Nominating Committee, a group of 6 members that choose all officers
- on behalf of the sorority.</p>
-	<h3>Graphic Designer</h3>
-      <h4>Hackital</h4>
-      <p>In charge of editing and maintaining website and social media.
-   Responsibilities include creat- ing content, advertising, and marketing
-    as well as helping plan and execute a major hackathon through getting
-     sponsorships and scheduling workshops.</p>
-     <h3>Disabled Student Collective</h3>
-     <h4>Member</h4>
-     <p>An organization focused on improving accessibility around campus,
-       working with the administration, faculty, and student organizations
-      to help make campus, classes, and events accessible to everyone.</p>
-	  </div>
-      
-    </div>
-<div class="courses">
-  <h1>Courses</h1>
-    <h2>That I've Taken</h2>
-    <div class="right">
-      <h3>Computer Architecture</h3>
-      <h3>Software Engineering</h3>
-      <h3>Discrete Structures</h3>
-      <h3>Design Fundamentals I and II</h3>
-      <h3>Typography I</h3>
-      <h3>Motion Graphics I</h3>
-  </div>
+		<div class="col-lg-8 col-md-10 col-sm-10" id="header-img">
+			<p></p>
+		</div>
+	</div>
 </div>
+<div class="row">
+	<div class="col-lg-10 col-md-10 col-sm-12 text-block-right" id="about-me">
+		<h1>About Me</h1>
+		<br></br>
+	<p>Pori sita paritio iusaperrume pe molla simusam estruntin cum liquissit eicaerfercid qui ani ommolorem faceribus dolorem porepel iquiden iatur, untecum que velicae rspernam rerum acea doluptatio te volest et, offictiae num quam, ut re volupta comnis dolora aborecus experum aut landignatur a con eum reperrore mo cus qui aut atur?
+Soles modio te nem fugit est aliciis sedionest, quam verferuptae pratet et omni tent, volupta sequi voluptatem que cullabo. Od que expliquis untio odipsam essit fuga. Ant re exeris accabora delecus vendit, te sitet endita iusdae dolorro ium aboreperia sum re vernati ostemquiam eum faccabo. Et alias et eumqui doluptatest ant.
+</p>
+
+	</div>
+</div>
+	<div class="row">
+	<div class="col-lg-10 col-md-10 col-sm-12 text-block-left" id="projects">
+		<h1>Resume</h1>
+		<br></br>
+	<p>Pori sita paritio iusaperrume pe molla simusam estruntin cum liquissit eicaerfercid qui ani ommolorem faceribus dolorem porepel iquiden iatur, untecum que velicae rspernam rerum acea doluptatio te volest et, offictiae num quam, ut re volupta comnis dolora aborecus experum aut landignatur a con eum reperrore mo cus qui aut atur?
+Soles modio te nem fugit est aliciis sedionest, quam verferuptae pratet et omni tent, volupta sequi voluptatem que cullabo. Od que expliquis untio odipsam essit fuga. Ant re exeris accabora delecus vendit, te sitet endita iusdae dolorro ium aboreperia sum re vernati ostemquiam eum faccabo. Et alias et eumqui doluptatest ant.
+</p>
+
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-11 col-md-11 col-sm-12" id="about-me">
+		<h1>About Me</h1>
+		<p>I'm graduating from George Washington University in May 2021 with a Bachelor's degree in Computer Science with minors in Graphic Design and Fine Art. Currently seeking employment beginning June 2021. I'm passionate about dogs, art, and front end design. </p>
+
+	</div>
+</div>
+	
 </body>
 </html>
