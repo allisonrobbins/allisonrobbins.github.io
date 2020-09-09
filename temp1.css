@@ -1,23 +1,41 @@
 body, html{
   font-family: "Avenir Next" !important;
   background-color: white;
-  height: 100%;
   margin: 0;
 }
 .bgd{
-	background-image: url(IMG_8215%203%20copy.jpg);
-	height: 100%;
+	background-image: url("IMG_8214 2.jpg");
+	height: 70vh;
 	margin-top: 0px;
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: 1;
 }
 .about{
+	background-color: #ffffff !important;
+/*	height: ;*/
+	padding-top: 10vh;
+	padding-bottom: 40vh;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	color: black;
+	margin-bottom: 100px;
+}
+.about img {
+	height: auto;
+	width: 30vw;
+	margin-top: 3vh;
+/*	background-position: center;*/
+}
+.resume{
 	background-color: #495c77 !important;
-	height: 200%;
-	padding-top: 50px;
-	padding-left: 50px;
+	padding-top: 10vh;
+	padding-bottom: 40vh;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	height: 200vh;
+/*	margin-bottom: 40vh;*/
 	color: white;
 }
 .right {
@@ -33,8 +51,9 @@ body, html{
   color: black !important;
 }
 .sec3 {
-	background-color: #253a54 !important;
-	color: white;
+/*	background-color: #253a54 !important;*/
+	background-color: #9898A0;
+	color: black;
 	height: 700px;
 	padding-top: 50px;
 	padding-left: 50px;
@@ -100,19 +119,20 @@ header p {
   src: url("http://allisonrobbins.github.io/fonts/Avenir_Next.otf"); /* File to be stored at your site */
   }
  section {
-  background-color: #333333;
   font-family: "Avenir Next" !important;
 }
+/*
 container {
   text-align: left;
   background-color: #333333;
   padding-left: 10px;
 }
+*/
 p {
   text-align: left;
   padding-left: 10px;
   font-family: "Avenir Next" !important;
-  font-size: 18px;
+  font-size: 16px;
 }
 img {
   padding-bottom: 20px;
@@ -120,7 +140,6 @@ img {
 h2 {
   color: inherit;
   font-family: "Avenir Next" !important;
-  padding-left: 20px;
   font-size: 36px;
   font-weight: 100;
 }
@@ -134,13 +153,4 @@ h4 {
   color: inherit;
   font-style: italic;
   font-size: 16;
-}
-.triangle {
-  width: 0;
-  height: 0;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-top: 50px solid #495c77;
-}
-.left {
 }
