@@ -43,6 +43,7 @@ body {
 	padding-top: 8vh;
 	float: left;
 	font-weight: 300;
+	clear: both;
 }
 
 #content h2{
@@ -66,6 +67,17 @@ body {
 	float: left;
 	line-height: 200%;
 	text-align: left;
+/*	clear: both;*/
+}
+
+.about-me p{
+	display: block;
+/*	padding-top: 2vh;*/
+	width: 60%;
+	float: left;
+	line-height: 200%;
+	text-align: left;
+	clear: both;
 }
 
 .wp-block-image img{
@@ -73,7 +85,10 @@ body {
 	height: auto;
 	float: right;
 	display: inline;
-	top: 0;
+	
+}
+.wp-block-image .about-me {
+	margin-top: 20vh !important;
 }
 section {
 /*
