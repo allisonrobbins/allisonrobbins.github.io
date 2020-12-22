@@ -41,9 +41,11 @@ body {
 }
 #content h1{
 	padding-top: 8vh;
-	float: left;
+/*	float: left;*/
 	font-weight: 300;
-	clear: both;
+/*	clear:left;*/
+/*	display: flex;*/
+/*	padding-bottom: 30vh;*/
 }
 
 #content h2{
@@ -61,24 +63,24 @@ body {
 
 }
 .about-me p{
-	display: block;
 /*	clear: both;*/
-	margin-top: 100vh;
+/*	margin-top: 100vh;*/
+	margin-top: 20vh!important;
 }
 #content p{
 /*	display: block;*/
 /*	padding-top: 2vh;*/
 	width: 60%;
-	float: left;
+/*	float: left;*/
 	line-height: 200%;
 	text-align: left;
-	
+/*	margin-top: 20vh;*/
 /*	clear: both;*/
 }
 
 
  .about-me img{
-	margin-top: 10vh;
+/*	margin-top: 10vh;*/
 }
 
 .wp-block-image img{
