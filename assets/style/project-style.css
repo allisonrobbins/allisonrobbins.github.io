@@ -306,3 +306,9 @@ margin: 0;
 	text-align: center;
 }
 .title { font-size: 11pt; font-family: verdana; font-weight: bold; }
+::selection {
+  background: #B4D5FE; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #B4D5FE; /* Gecko Browsers */
+}
