@@ -221,6 +221,24 @@ section {
 		padding-top: 5vh;
 	}
 }
+@media screen and (max-width: 400px) {
+	.mobile-label p {
+		font-size: 10px;
+	}
+	.mobile-label a {
+		font-size: 12px;
+	}
+	#header li a {
+		font-size: 14px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#header ul {
+		padding: 0;
+	}
+	
+}
+
 @media screen and (max-width: 800px) {
   #header h1 {
 	  display: none;
