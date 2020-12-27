@@ -39,7 +39,7 @@ body {
 	width: 100%;
 	height: 80vh;
 	margin-top: -10px;
-	background-image: url("../images/websiteheader-cropped1.jpg");
+	background-image: url("../images/websiteheader.jpg");
 	background-position: left;
 	background-size: cover;
     background-repeat: no-repeat;
@@ -344,16 +344,30 @@ section {
 	
 }
 #contact input[type=submit] {
+/*
   background-color: #7ca6b2;
   color: white;
   padding: 12px 20px;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   border-radius: 0px;
+*/
   cursor: pointer;
+}
+#contact button {
+	background-color: #7ca6b2;
+  color: #000;
+  padding: 12px 20px;
+  border: 2px solid #000;
+	 border-radius: 0px;
+}
+#contact button:hover {
+	background-color: #fff;
+	border: #fff;
+	color: #000;
 }
 #contact input[type=submit]:hover {
   background-color: #ccc;
-	color: #000;
+color: #000;
 }
 #contact .container {
   border-radius: 0px;
