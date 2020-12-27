@@ -1,0 +1,362 @@
+body {
+	font-family: 'Roboto';
+	width: 100%;
+	margin: 0;
+}
+#header {
+	background-color: #7ca6b2;
+	height: 70px;
+	padding-top: 10px;
+/*	padding-bottom: 6vh; */
+	/* text-align: center; */
+}
+#header h1{
+	font-size: 24px;
+	font-weight: 100;
+	float: left;
+	margin-top: 0;
+	padding-left: 5vw;
+	padding-top: 10px;
+}
+.navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+		overflow: hidden;
+		float: right;
+}
+.navigation-bar li {
+	display: inline-block;
+}
+.navigation-bar li a {
+	color: black;
+	text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+	display: block;
+}
+#blue {
+	width: 100%;
+	height: 80vh;
+	margin-top: -10px;
+	background-image: url("../images/websiteheader-cropped1.jpg");
+	background-position: left;
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+  
+  z-index: 0;
+  top: 0;
+  left: 0;
+	overflow: hidden;
+}
+#overlay {
+	width: 30vw;
+	height: 40vh;
+  /* top: 400px; */
+  margin-top: 5vh;
+  /* left: 0; */
+	z-index: 1;
+	background-color: #7ca6b2;
+	overflow: hidden;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 20vh;
+
+
+}
+#content h1{
+	/* padding-top: 8vh; */
+	font-weight: 100;
+	font-size: 50px;
+}
+
+#content h2{
+	font-weight: 100;
+	font-size: 30px;
+}
+#content h3{
+	font-weight: 100;
+	/* font-style: italic; */
+	font-size: 30px;
+  padding-left: 10vw;
+  padding-top: 10vh;
+
+}
+#content p{
+	width: 40vw;
+	float: left;
+	line-height: 200%;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.wp-block-image img{
+  padding-right: 10vw;
+  width: 25vw;
+  height: auto;
+}
+
+
+section {
+/*
+	padding-left: 10vw;
+	padding-right: 10vw;
+*/
+	width: 80%;
+	margin: auto;
+	clear: both;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	text-align: center;
+}
+#projects h3 {
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	padding-left: 0;
+}
+/*
+	#projects {
+		float: center;
+	}
+*/
+#projects .column {
+	width: 25%;
+	margin-left: 1%;
+	margin-right: 1%;
+	display: inline-block;
+}
+
+#projects .container {
+  position: relative;
+  width: 100%;
+  margin-top: 2.5vh;
+  display: inline-block;
+}
+
+#projects .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+#projects .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #7ca6b2;
+}
+
+#projects .container:hover .overlay {
+  opacity:0.9;
+}
+
+#projects .text {
+	font-weight: 100;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.mobile-label {
+/*	visibility: hidden;*/
+	display: none;
+}
+	
+#projects .text a {
+		color: white;
+		text-decoration: none;
+}	
+/* Responsive layout - makes a two column-layout instead of three columns */
+@media screen and (max-width: 800px) {
+   .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+	.mobile-label {
+/*		visibility: visible;*/
+		display: block;
+		text-align: center;
+	}
+	.mobile-label a {
+		color: black;
+		text-decoration: none;
+		padding: 0;
+		margin: 0;
+	}
+	.mobile-label p {
+		font-size: 14px;
+		line-height: normal;
+		padding: 0;
+		margin: 0;
+	}
+	#projects .container:hover .overlay {
+  		opacity: 0;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  #projects .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+	#overlay {
+		padding-top: 5vh;
+	}
+}
+@media screen and (max-width: 400px) {
+	.mobile-label p {
+		font-size: 10px;
+	}
+	.mobile-label a {
+		font-size: 12px;
+	}
+	#header li a {
+		font-size: 14px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#header ul {
+		padding: 0;
+	}
+	
+}
+
+@media screen and (max-width: 800px) {
+  #header h1 {
+	  display: none;
+  }
+	#header {
+		text-align: center;
+		float: none;
+	}
+	#blue {
+		width: 100%;
+		background-size: contain;
+		background-position: top;
+		background-attachment: scroll;
+	}
+	#overlay{
+		background: none;
+		color: white;
+		margin-top: -5vh;
+		overflow: visible;
+		width: 100%;
+		padding-left: 5vw;
+		padding-right: 5vw;
+		padding-top: 15vh;
+	}
+	#overlay h1 {
+		font-size: 30px;
+		
+	}
+	#overlay h2 {
+		font-size: 18px;
+		font-weight: 200;
+		line-height: normal;
+		
+	}
+	#content p{
+		width: 80vw;
+	}
+	#content img{
+		width: 50vw;
+		text-align: center;
+		padding-left: 20vw;
+		padding-right: 20vw;
+	}
+	#about-me {
+		top: 0px;
+		margin-top: -30vh;
+	}
+}
+
+#delimiter { clear: both; }
+
+#footer div{
+	margin-top: 5vh;
+	text-align: center;
+	width: 100vw;
+	background-color: #7ca6b2;
+
+}
+#footer .navigation-bar ul {
+    list-style-type: none;
+    padding: 0;
+	background-color: #7ca6b2;
+	width: 100vw;
+
+}
+#footer .navigation-bar li {
+	display: inline-block;
+}
+#footer .navigation-bar li a {
+	color: black;
+	text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+	display: block;
+}
+#contact {
+	margin: 0;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	
+	background-color: #7ca6b2;
+	
+	}
+#contact * {box-sizing: border-box;}
+#contact h3{
+	font-weight: 100;
+	/* font-style: italic; */
+	font-size: 30px;
+
+}
+
+#contact input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #000;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #7ca6b2;
+  color: #000;
+	
+}
+#contact input[type=submit] {
+  background-color: #7ca6b2;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  cursor: pointer;
+}
+#contact input[type=submit]:hover {
+  background-color: #ccc;
+	color: #000;
+}
+#contact .container {
+  border-radius: 0px;
+  background-color: #7ca6b2;
+  padding: 20px;
+}

@@ -1,0 +1,478 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	
+	
+	
+
+<title>Allison Robbins | Front End Design</title>
+</head>
+	<style>
+		
+		:root {
+			$light-green: #647973;
+			$dark-green: #314247;
+		}	
+		
+	.navbar {
+		margin-bottom: 0;
+		border-radius: 0;
+		background-color: #fff; 
+/*
+		background-color: #fff; 
+		color: #FFFFFF;
+		position: sticky;
+*/
+		}
+	
+	.navbar li{
+		font-size: 14px;
+	}
+	.navbar a {
+		color: #314247;
+	}
+	.navbar .active{
+		background-color: #CDCDCD;
+	}
+	.navbar-brand{
+		color: #314247;
+		font-weight: bold;
+		font-size: 20px;
+		
+		}
+	#header {
+		width: 100%;
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	#header-img {
+		background: url(../../../Desktop/Website%20image/IMG_8215.jpg);
+		background-size: contain;
+		height: 70vh;
+/*
+		width: 100%;
+		width: 70vw;
+*/		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: right;
+		z-index: 0;
+		float: right;
+/*		position: absolute;*/
+	}
+	body{
+		font-family: "Avenir Next" !important;
+	}
+	#title {
+		text-align: left;
+		margin-top: 10vh;
+		padding-top: 10vh;
+		padding-left: 10vh;
+		padding-bottom: 10vh;
+		height: auto;
+		color: #ffffff;
+		background-color: #314247;
+		background-size: contain;
+		z-index: 10;
+		position: absolute;
+	}
+		
+		.text-block-right {
+			float: right;
+			background-color: #647973;
+			color: white;
+			margin-top: 10vh;
+			margin-right: -2vw;
+			padding-top: 10vh;
+			padding-left: 15vw;
+			padding-right: 15vw;
+			padding-bottom: 10vh;
+		}
+		.text-block-left{
+			float: left;
+			background-color: #838e91;
+			color: black;
+			margin-top: 10vh;
+			margin-left: -2vw;
+			padding-top: 10vh;
+			padding-left: 15vw;
+			padding-right: 15vw;
+			padding-bottom: 10vh;
+		}
+		.text-block-right2 {
+			float: right;
+			background-color: #314247;
+			color: white;
+			margin-top: 10vh;
+			margin-right: -2vw;
+			padding-top: 10vh;
+			padding-bottom: 10vh;
+		}
+		
+		p {
+			font-size: 18px;
+		}
+		#resume h5 {
+			font-size: 24px;
+			color: #FFFFFF;
+			font-weight: normal;
+		}
+		#resume h6 {
+			font-size: 18px;
+			color: #314247;
+/*			font-weight: bold;*/
+			
+		}
+		#resume h7 {
+			font-size: 16px;
+			color: #314247;
+			font-weight: bold;
+		}
+		#resume p {
+			margin-top: 3vh;
+			font-size: 16px;
+		}
+		#skills h1 {
+			padding-left: 0;
+		}
+		#skills h5 {
+			display: inline-block;
+			padding-right: 5vw;
+			font-size: 18px;
+		}
+		.carousel-inner img {
+			width: 100%;
+		  }
+		.carousel-inner {
+			height: 60vh;
+			background-size:cover;
+		}
+		#portfolio-container {
+			margin-top: 10vh;
+			padding-left: 10vw;
+			padding-right: 10vw;
+			text-align: center;
+		}
+		i {
+			float: right;
+		}
+	</style>
+<body data-spy="scroll" data-target=".navbar" data-offset="25">
+	
+<!--navbar todo: add smooth scrolling https://www.w3schools.com/bootstrap/bootstrap_ref_js_scrollspy.asp	-->
+  <nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+		<a class="navbar-brand" href="#">Allison Robbins</a>
+	</div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about-me">About Me</a></li>
+		<li><a href="#resume">Resume</a></li>
+		<li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+  </div>
+</nav>
+<div class="container" id="header">	
+	<div class="row">
+		<div class="col-lg-6 col-md-4 col-sm-2" id="title">
+			<h1>Allison Robbins</h1>
+			<h4>FRONT END DESIGN</h4>
+		</div>
+		<div class="col-lg-8 col-md-10 col-sm-10" id="header-img">
+			<p></p>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="col-lg-10 col-md-10 col-sm-12 text-block-right" id="about-me">
+		<h1>About Me</h1>
+		<br/>
+	<p>Pori sita paritio iusaperrume pe molla simusam estruntin cum liquissit eicaerfercid qui ani ommolorem faceribus dolorem porepel iquiden iatur, untecum que velicae rspernam rerum acea doluptatio te volest et, offictiae num quam, ut re volupta comnis dolora aborecus experum aut landignatur a con eum reperrore mo cus qui aut atur?
+Soles modio te nem fugit est aliciis sedionest, quam verferuptae pratet et omni tent, volupta sequi voluptatem que cullabo. Od que expliquis untio odipsam essit fuga. Ant re exeris accabora delecus vendit, te sitet endita iusdae dolorro ium aboreperia sum re vernati ostemquiam eum faccabo. Et alias et eumqui doluptatest ant.
+</p>
+
+	</div>
+</div>
+	<div class="container-fluid">
+	<div class="col-lg-10 col-md-10 col-sm-12 text-block-left" id="resume">
+		<h1>Resume</h1>
+		<br/>
+		<h5>Marketing Intern</h5>
+		<h6><strong>Spencer Films</strong> | <i>May - August 2020</i></h6>
+		<p>Pori sita paritio iusaperrume pe molla simusam estruntin cum liquissit eicaerfercid qui ani ommolorem faceribus dolorem porepel iquiden iatur, untecum que velicae rspernam rerum acea doluptatio te volest et, offictiae num quam, ut re volupta comnis dolora aborecus experum aut landignatur a con eum reperrore mo cus qui aut atur</p>
+		<br/>
+		<h5>Web Design Intern</h5>
+		<h6><strong>Leidos</strong> | <i>May - August 2019</i></h6>
+		<h7>Arlington, VA</h7>
+		<p>Pori sita paritio iusaperrume pe molla simusam estruntin cum liquissit eicaerfercid qui ani ommolorem faceribus dolorem porepel iquiden iatur, untecum que velicae rspernam rerum acea doluptatio te volest et, offictiae num quam, ut re volupta comnis dolora aborecus experum aut landignatur a con eum reperrore mo cus qui aut atur</p>
+		<br/>
+		<h5>Unit Leader, Camp Counselor</h5>
+		<h6><strong>Camp Echo Bridge</strong> | <i>May 2015 - August 2018</i></h6>
+		<h7>Newton, MA</h7>
+		<p>Pori sita paritio iusaperrume pe molla simusam estruntin cum liquissit eicaerfercid qui ani ommolorem faceribus dolorem porepel iquiden iatur, untecum que velicae rspernam rerum acea doluptatio te volest et, offictiae num quam, ut re volupta comnis dolora aborecus experum aut landignatur a con eum reperrore mo cus qui aut atur</p>
+		
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-10 col-md-10 col-sm-12 text-block-right2" id="skills">
+		<div class="col-lg-2 col-md-2 col-sm-2 ">
+			<p> </p>
+		</div>
+		<div class="col-lg-8 col-md-10 col-sm-10">
+		<h1>Skills</h1>
+		<br/>
+		
+<!--	Web design skills	-->
+		<div class="row">
+			<div class="col-lg-5 col-md-5 col-sm-5">
+				<h3>Web Design</h3>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="row">
+				<h5>HTML</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<div class="row">
+				<h5>CSS</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<div class="row">
+				<h5>Bootstrap</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			</div>
+		</div>
+		
+<!--		<br/>-->
+		<hr>
+<!--	Android App skills	-->
+		<div class="row">
+			<div class="col-lg-5 col-md-5 col-sm-5">
+				<h3>Android Application Development</h3>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="row">
+				<h5>Kotlin</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<div class="row">
+				<h5>XML</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<div class="row">
+				<h5>JSON parsing</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<div class="row">
+				<h5>Google Maps API integration</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			</div>
+		</div>
+			
+		<hr>
+			
+<!--	Software engineering skills	-->
+		<div class="row">
+			<div class="col-lg-5 col-md-5 col-sm-5">
+				<h3>Software Engineering</h3>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="row">
+				<h5>Java</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<div class="row">
+				<h5>C</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<div class="row">
+				<h5>C++</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<div class="row">
+				<h5>Another language</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			</div>
+		</div>
+			
+		<hr>
+			
+<!--	graphic design	-->
+		<div class="row">
+			<div class="col-lg-5 col-md-5 col-sm-5">
+				<h3>Graphic Design</h3>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="row">
+				<h5>Adobe InDesign</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<div class="row">
+				<h5>Adobe Photoshop</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<div class="row">
+				<h5>Adobe Illustrator</h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+<!--
+			<div class="row">
+				<h5></h5>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+-->
+			</div>
+		</div>			
+		</div>
+		
+	<div class="col-lg-2 col-md-2 col-sm-2 "></div>
+	</div>
+</div>
+<div class="container-fluid" id="portfolio-container">
+	<h1>Portfolio</h1>
+		
+	
+<div id="portfolio" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="ProjectPhotos/day-trip-planner-caousel.png" alt="Day Trip Planner android application">
+		<div class="carousel-caption">
+		  <h3>Android App Design</h3>
+		  <p>Day Trip Planner that uses geocoding, Yelp's Business Search API and WMATA's Metro APIs to give business reccommendations based on user's location input and settings.</p>
+		</div>
+    </div>
+
+    <div class="item">
+      <img src="black.png" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="ny.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#portfolio" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#portfolio" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<!--
+	<div class="row">
+		<div class="carousel slide" id="portfolio">
+			<ul class="carousel-indicators">
+				<li data-slide-to="0" class="active"></li>
+				<li data-slide-to="1" class="active"></li>
+				<li data-slide-to="2" class="active"></li>
+			</ul>
+			
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="black.png">
+				</div>
+				<div class="carousel-item">
+					<img src="blackGray.png">
+				</div>
+				<div class="carousel-item">
+					<img src="block1.jpg">
+				</div>
+			</div>
+			
+			<a class="carousel-control-prev" href="#portfolio" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#portfolio" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	</div>
+-->
+<div class="row">
+	<div class="col-lg-11 col-md-11 col-sm-12">
+		<h1>About Me</h1>
+		<p>I'm graduating from George Washington University in May 2021 with a Bachelor's degree in Computer Science with minors in Graphic Design and Fine Art. Currently seeking employment beginning June 2021. I'm passionate about dogs, art, and front end design. </p>
+
+	</div>
+</div>
+<!--
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+-->
+</body>
+</html>

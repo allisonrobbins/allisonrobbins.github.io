@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#contact {
+	margin: 0;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	
+	background-color: #7ca6b2;
+	
+	}
+#contact * {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #000;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #7ca6b2;
+  color: #000;
+	
+}
+input[type=submit] {
+  background-color: #7ca6b2;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #ccc;
+	color: #000;
+}
+#contact .container {
+  border-radius: 0px;
+  background-color: #7ca6b2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<section id="contact">
+	<h3>Contact Form</h3>
+
+<div class="container">
+  <form
+  action="https://formspree.io/f/xwkwwlay"
+  method="POST"
+>
+  <label>
+    Your name:
+    <input type="text" name="name">
+  </label>
+	<label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+</div>
+	
+</section>
+
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+img { max-width: 100%; }
+
+
+::-moz-selection { background: #8542a0; color: #fff; text-shadow: none; }
+::selection { background: #8542a0; color: #fff; text-shadow: none; }
+
+
+/***** Top content *****/
+
+.top-content { width: 100%; padding-top: 100px; }
+
+.carousel-control-next, .carousel-control-prev { border: 0; color: black;}
+
+
+
