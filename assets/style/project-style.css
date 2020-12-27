@@ -8,7 +8,7 @@ body {
 
 #header {
 	background-color: #7ca6b2;
-	padding-top: 10vh;
+	padding-top: 15vh;
 	padding-bottom: 1vh;
 	text-align: center;
 }
@@ -28,7 +28,7 @@ body {
 .navigation-bar li a {
 	color: black;
 	text-align: center;
-    padding: 14px 40px;
+    padding: 20px 40px;
     text-decoration: none;
 	display: block;
 }
