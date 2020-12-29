@@ -16,6 +16,10 @@ body {
 	font-size: 40px;
 	font-weight: 300;
 }
+#header a {
+	color: black;
+	text-decoration: none;
+}
 .navigation-bar ul {
     list-style-type: none;
     margin: 0;
