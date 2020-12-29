@@ -297,6 +297,23 @@ margin: 0;
     	padding: 14px 10px;
 	}
 }
+@media screen and (max-width: 400px) {
+	.mobile-label p {
+		font-size: 10px;
+	}
+	.mobile-label a {
+		font-size: 12px;
+	}
+	#header li a {
+		font-size: 14px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#header ul {
+		padding: 0;
+	}
+	
+}
 
 
 #delimiter { clear: both; }
@@ -307,8 +324,8 @@ margin: 0;
 }
 .title { font-size: 11pt; font-family: verdana; font-weight: bold; }
 ::selection {
-  background: #B4D5FE; /* WebKit/Blink Browsers */
+  background-color: #B4D5FE!important; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #B4D5FE; /* Gecko Browsers */
+  background-color: #B4D5FE!important; /* Gecko Browsers */
 }
